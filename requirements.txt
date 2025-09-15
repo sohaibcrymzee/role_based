@@ -1,0 +1,11 @@
+django-cors-headers==4.7.0
+django-filter==25.1
+django-rest-swagger==2.2.0
+djangorestframework==3.15.2
+djangorestframework_simplejwt==5.4.0
+pillow==11.1.0
+python-dotenv==1.0.1
+drf-yasg==1.21.10
+psycopg2==2.9.10
+elasticsearch-dsl==8.17.1
+
