@@ -4,7 +4,7 @@ from django.utils.translation import gettext_lazy as _
 from rest_framework import serializers
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from api.core.utils import DotsValidationError
-
+from api.jwtauth.models import Product
 
 User = get_user_model()
 
@@ -64,3 +64,9 @@ class AdminLoginSerializer(BaseLoginSerializer):
             })
         
         return validate_attrs
+
+
+class ProductSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = Product
+        fields = "__all__"

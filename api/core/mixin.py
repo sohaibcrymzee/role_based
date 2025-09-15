@@ -14,7 +14,7 @@ from rest_framework.response import Response
 from rest_framework.settings import api_settings
 from rest_framework.viewsets import GenericViewSet
 
-from api.core.constants import Status
+# from api.core.constants import Status
 from api.core.pagination import CustomPagination
 from api.users.models import User
 
